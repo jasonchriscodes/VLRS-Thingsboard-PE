@@ -1,0 +1,41 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "customerId" : null,
+    "data" : "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",
+    "descriptor" : {
+      "mediaType" : "image/png",
+      "width" : 24,
+      "height" : 66,
+      "size" : 2365,
+      "etag" : "d4fe586d24a8ef1d7e6a2c038c595a1b5eb139686c20c0a5e551e37f1165e557",
+      "previewDescriptor" : {
+        "mediaType" : "image/png",
+        "width" : 24,
+        "height" : 66,
+        "size" : 2365,
+        "etag" : "d4fe586d24a8ef1d7e6a2c038c595a1b5eb139686c20c0a5e551e37f1165e557"
+      }
+    },
+    "etag" : "d4fe586d24a8ef1d7e6a2c038c595a1b5eb139686c20c0a5e551e37f1165e557",
+    "externalId" : null,
+    "fileName" : "vlrs_dashboard_dashboard_widget_route_map_openstreetmap_marker_image_2.png",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "565c4590-4ad2-11ef-9d96-314c15f6fa0b"
+    },
+    "link" : "/api/images/tenant/vlrs_dashboard_dashboard_widget_route_map_openstreetmap_marker_image_2.png",
+    "name" : "\"VLRS Dashboard\" dashboard widget \"Route Map - OpenStreetMap\" marker image 2",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/7JCGcyZLYkQiK1IlDulHZDWzlwOL9iNe",
+    "publicResourceKey" : "7JCGcyZLYkQiK1IlDulHZDWzlwOL9iNe",
+    "resourceKey" : "vlrs_dashboard_dashboard_widget_route_map_openstreetmap_marker_image_2.png",
+    "resourceType" : "IMAGE",
+    "title" : "\"VLRS Dashboard\" dashboard widget \"Route Map - OpenStreetMap\" marker image 2"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
