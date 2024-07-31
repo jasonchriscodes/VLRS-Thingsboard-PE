@@ -18,7 +18,10 @@
       }
     },
     "etag" : "ac530e880c5a0b358ced5bcfcc6b2748ec995c2988de353ed83a52c0723b8183",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "561be130-4ad2-11ef-9d96-314c15f6fa0b"
+    },
     "fileName" : "vlrs_dashboard_dashboard_widget_route_map_openstreetmap_marker_image_0.png",
     "id" : {
       "entityType" : "TB_RESOURCE",

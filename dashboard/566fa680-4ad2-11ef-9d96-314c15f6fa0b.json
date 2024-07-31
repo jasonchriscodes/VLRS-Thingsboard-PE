@@ -518,78 +518,6 @@
           "id" : "a675c5fe-5b04-7218-130a-eedac4f8ad2d",
           "typeFullFqn" : "system.cards.entities_table"
         },
-        "ea773fe1-bec9-2f21-4ced-f64089bfbdc7" : {
-          "typeFullFqn" : "tenant.publisher_device_information",
-          "type" : "latest",
-          "sizeX" : 7.5,
-          "sizeY" : 3,
-          "config" : {
-            "datasources" : [ {
-              "type" : "entity",
-              "name" : "",
-              "entityAliasId" : "bc94b798-c312-7699-16f4-ebcbd49460c3",
-              "dataKeys" : [ {
-                "name" : "config",
-                "type" : "attribute",
-                "label" : "config",
-                "color" : "#2196f3",
-                "settings" : { },
-                "_hash" : 0.16417320456670303
-              } ],
-              "alarmFilterConfig" : {
-                "statusList" : [ "ACTIVE" ]
-              }
-            } ],
-            "timewindow" : {
-              "displayValue" : "",
-              "selectedTab" : 0,
-              "realtime" : {
-                "realtimeType" : 1,
-                "interval" : 1000,
-                "timewindowMs" : 60000,
-                "quickInterval" : "CURRENT_DAY"
-              },
-              "history" : {
-                "historyType" : 0,
-                "interval" : 1000,
-                "timewindowMs" : 60000,
-                "fixedTimewindow" : {
-                  "startTimeMs" : 1721958715090,
-                  "endTimeMs" : 1722045115090
-                },
-                "quickInterval" : "CURRENT_DAY"
-              },
-              "aggregation" : {
-                "type" : "AVG",
-                "limit" : 25000
-              }
-            },
-            "showTitle" : true,
-            "backgroundColor" : "#fff",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "8px",
-            "settings" : { },
-            "title" : "PUBLISHER DEVICE INFORMATION",
-            "showTitleIcon" : false,
-            "titleTooltip" : "",
-            "dropShadow" : true,
-            "enableFullscreen" : true,
-            "enableDataExport" : true,
-            "widgetStyle" : { },
-            "widgetCss" : "",
-            "titleStyle" : {
-              "fontSize" : "16px",
-              "fontWeight" : 400
-            },
-            "pageSize" : 1024,
-            "noDataDisplayMessage" : "",
-            "useDashboardTimewindow" : true,
-            "displayTimewindow" : true
-          },
-          "row" : 0,
-          "col" : 0,
-          "id" : "ea773fe1-bec9-2f21-4ced-f64089bfbdc7"
-        },
         "63c60552-5b85-b159-599b-4cd66925d0f6" : {
           "typeFullFqn" : "tenant.send_announcement",
           "type" : "latest",
@@ -662,8 +590,8 @@
           "col" : 0,
           "id" : "63c60552-5b85-b159-599b-4cd66925d0f6"
         },
-        "f0ba8097-5004-65f5-949c-8a82c3e43eb8" : {
-          "typeFullFqn" : "tenant.bus_route_coordinates",
+        "79e8ff8e-4819-1aba-c529-fb5ee9b5e88a" : {
+          "typeFullFqn" : "tenant.publisher_device_information",
           "type" : "latest",
           "sizeX" : 7.5,
           "sizeY" : 3,
@@ -673,12 +601,12 @@
               "name" : "",
               "entityAliasId" : "bc94b798-c312-7699-16f4-ebcbd49460c3",
               "dataKeys" : [ {
-                "name" : "busRoute",
+                "name" : "config",
                 "type" : "attribute",
-                "label" : "busRoute",
+                "label" : "config",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.1502341711591786
+                "_hash" : 0.08510388896518783
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -698,8 +626,80 @@
                 "interval" : 1000,
                 "timewindowMs" : 60000,
                 "fixedTimewindow" : {
-                  "startTimeMs" : 1721958786084,
-                  "endTimeMs" : 1722045186084
+                  "startTimeMs" : 1722331437409,
+                  "endTimeMs" : 1722417837409
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : { },
+            "title" : "PUBLISHER DEVICE INFORMATION",
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "enableDataExport" : true,
+            "widgetStyle" : { },
+            "widgetCss" : "",
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : "",
+            "useDashboardTimewindow" : true,
+            "displayTimewindow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "79e8ff8e-4819-1aba-c529-fb5ee9b5e88a"
+        },
+        "88841ac7-d42d-eabc-582e-0821cea4110d" : {
+          "typeFullFqn" : "tenant.bus_route_coordinates",
+          "type" : "latest",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : "",
+              "entityAliasId" : "bc94b798-c312-7699-16f4-ebcbd49460c3",
+              "dataKeys" : [ {
+                "name" : "busRoute",
+                "type" : "attribute",
+                "label" : "busRoute",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.02967606017122093
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1722331457438,
+                  "endTimeMs" : 1722417857438
                 },
                 "quickInterval" : "CURRENT_DAY"
               },
@@ -732,9 +732,9 @@
           },
           "row" : 0,
           "col" : 0,
-          "id" : "f0ba8097-5004-65f5-949c-8a82c3e43eb8"
+          "id" : "88841ac7-d42d-eabc-582e-0821cea4110d"
         },
-        "ae0d7331-ff57-347f-b480-4ca4c6ec4c76" : {
+        "63205505-4dfc-7c93-66a5-bc957e7f57b6" : {
           "typeFullFqn" : "tenant.bus_stop_coordinates",
           "type" : "latest",
           "sizeX" : 7.5,
@@ -750,7 +750,7 @@
                 "label" : "busStop",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.33522755217732314
+                "_hash" : 0.9280803518109992
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -770,8 +770,8 @@
                 "interval" : 1000,
                 "timewindowMs" : 60000,
                 "fixedTimewindow" : {
-                  "startTimeMs" : 1721958806252,
-                  "endTimeMs" : 1722045206252
+                  "startTimeMs" : 1722331481413,
+                  "endTimeMs" : 1722417881413
                 },
                 "quickInterval" : "CURRENT_DAY"
               },
@@ -804,7 +804,7 @@
           },
           "row" : 0,
           "col" : 0,
-          "id" : "ae0d7331-ff57-347f-b480-4ca4c6ec4c76"
+          "id" : "63205505-4dfc-7c93-66a5-bc957e7f57b6"
         }
       },
       "states" : {
@@ -844,25 +844,25 @@
                   "row" : 9,
                   "col" : 16
                 },
-                "ea773fe1-bec9-2f21-4ced-f64089bfbdc7" : {
-                  "sizeX" : 8,
-                  "sizeY" : 6,
-                  "row" : 9,
-                  "col" : 0
-                },
                 "63c60552-5b85-b159-599b-4cd66925d0f6" : {
                   "sizeX" : 8,
                   "sizeY" : 4,
                   "row" : 15,
                   "col" : 0
                 },
-                "f0ba8097-5004-65f5-949c-8a82c3e43eb8" : {
+                "79e8ff8e-4819-1aba-c529-fb5ee9b5e88a" : {
+                  "sizeX" : 8,
+                  "sizeY" : 6,
+                  "row" : 9,
+                  "col" : 0
+                },
+                "88841ac7-d42d-eabc-582e-0821cea4110d" : {
                   "sizeX" : 8,
                   "sizeY" : 4,
                   "row" : 15,
                   "col" : 8
                 },
-                "ae0d7331-ff57-347f-b480-4ca4c6ec4c76" : {
+                "63205505-4dfc-7c93-66a5-bc957e7f57b6" : {
                   "sizeX" : 8,
                   "sizeY" : 4,
                   "row" : 15,
@@ -916,7 +916,7 @@
             "type" : "entityList",
             "resolveMultiple" : true,
             "entityType" : "DEVICE",
-            "entityList" : [ "d4467e10-4acf-11ef-9d96-314c15f6fa0b", "2e6ca5e0-4ad0-11ef-9d96-314c15f6fa0b" ]
+            "entityList" : [ "d4467e10-4acf-11ef-9d96-314c15f6fa0b", "2e6ca5e0-4ad0-11ef-9d96-314c15f6fa0b", "9ee05df0-4f10-11ef-8c42-314c15f6fa0b" ]
           }
         },
         "8b6f55a0-b35a-0db8-d20d-172599598f54" : {
@@ -926,7 +926,7 @@
             "type" : "entityList",
             "resolveMultiple" : true,
             "entityType" : "DEVICE",
-            "entityList" : [ "3ffc4020-4196-11ee-969d-5b2424a9a3ad", "3ffc4020-4196-11ee-969d-5b2424a9a3ad", "5e7f1380-da96-11ee-9c2b-b5bd20c6dcb4", "d1ec51e0-dab7-11ee-9c2b-b5bd20c6dcb4" ]
+            "entityList" : [ "1b98bd40-4a18-11ef-8e6e-2d58a4dcc0ca", "1b98bd40-4a18-11ef-8e6e-2d58a4dcc0ca", "1b98bd40-4a18-11ef-8e6e-2d58a4dcc0ca", "1b98bd40-4a18-11ef-8e6e-2d58a4dcc0ca" ]
           }
         },
         "a7624434-817e-bdba-eb78-6d627180b78e" : {
@@ -936,7 +936,7 @@
             "type" : "entityList",
             "resolveMultiple" : true,
             "entityType" : "DEVICE",
-            "entityList" : [ "3ffc4020-4196-11ee-969d-5b2424a9a3ad", "3ffc4020-4196-11ee-969d-5b2424a9a3ad" ]
+            "entityList" : [ "1b98bd40-4a18-11ef-8e6e-2d58a4dcc0ca", "1b98bd40-4a18-11ef-8e6e-2d58a4dcc0ca" ]
           }
         },
         "dc3d8e48-36a6-3cc0-8af9-54abbb41db0a" : {
@@ -946,7 +946,7 @@
             "type" : "entityList",
             "resolveMultiple" : true,
             "entityType" : "DEVICE",
-            "entityList" : [ "5e7f1380-da96-11ee-9c2b-b5bd20c6dcb4", "d1ec51e0-dab7-11ee-9c2b-b5bd20c6dcb4" ]
+            "entityList" : [ "1b98bd40-4a18-11ef-8e6e-2d58a4dcc0ca", "1b98bd40-4a18-11ef-8e6e-2d58a4dcc0ca" ]
           }
         },
         "809d1832-97a3-024a-56ac-41f8be18df71" : {
@@ -957,7 +957,19 @@
             "resolveMultiple" : false,
             "singleEntity" : {
               "entityType" : "DEVICE",
-              "id" : "9332b740-493a-11ef-b869-d5965017ec23"
+              "id" : "1b98bd40-4a18-11ef-8e6e-2d58a4dcc0ca"
+            }
+          }
+        },
+        "4229403c-a302-e7a2-ef11-9df05ebcd908" : {
+          "id" : "4229403c-a302-e7a2-ef11-9df05ebcd908",
+          "alias" : "Bus C",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "9ee05df0-4f10-11ef-8c42-314c15f6fa0b"
             }
           }
         }
@@ -1040,7 +1052,10 @@
       }
     },
     "customerId" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "566fa680-4ad2-11ef-9d96-314c15f6fa0b"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "566fa680-4ad2-11ef-9d96-314c15f6fa0b"

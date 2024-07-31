@@ -18,7 +18,10 @@
       "dataKeySettingsSchema" : "{}\n",
       "defaultConfig" : "{\"datasources\":[{\"type\":\"function\",\"name\":\"function\",\"dataKeys\":[{\"name\":\"f(x)\",\"type\":\"function\",\"label\":\"Random\",\"color\":\"#2196f3\",\"settings\":{},\"_hash\":0.15479322438769105,\"funcBody\":\"var value = prevValue + Math.random() * 100 - 50;\\nvar multiplier = Math.pow(10, 2 || 0);\\nvar value = Math.round(value * multiplier) / multiplier;\\nif (value < -1000) {\\n\\tvalue = -1000;\\n} else if (value > 1000) {\\n\\tvalue = 1000;\\n}\\nreturn value;\"}]}],\"timewindow\":{\"realtime\":{\"timewindowMs\":60000}},\"showTitle\":true,\"backgroundColor\":\"#fff\",\"color\":\"rgba(0, 0, 0, 0.87)\",\"padding\":\"8px\",\"settings\":{},\"title\":\"SEND ANNOUNCEMENT\",\"showTitleIcon\":false,\"titleTooltip\":\"\",\"dropShadow\":true,\"enableFullscreen\":true,\"enableDataExport\":true,\"widgetStyle\":{},\"widgetCss\":\"\",\"titleStyle\":{\"fontSize\":\"16px\",\"fontWeight\":400},\"pageSize\":1024,\"noDataDisplayMessage\":\"\"}"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "WIDGET_TYPE",
+      "id" : "f0521420-4ba6-11ef-9d96-314c15f6fa0b"
+    },
     "id" : {
       "entityType" : "WIDGET_TYPE",
       "id" : "f0521420-4ba6-11ef-9d96-314c15f6fa0b"

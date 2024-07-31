@@ -8,7 +8,10 @@
     "country" : null,
     "customerId" : null,
     "email" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "1ccd1e90-4a18-11ef-8e6e-2d58a4dcc0ca"
+    },
     "id" : {
       "entityType" : "CUSTOMER",
       "id" : "1ccd1e90-4a18-11ef-8e6e-2d58a4dcc0ca"
