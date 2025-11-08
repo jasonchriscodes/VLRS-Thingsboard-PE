@@ -1,0 +1,71 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "1bfc3a00-4a18-11ef-8e6e-2d58a4dcc0ca"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "d1bf4940-7beb-11ef-868b-89b5ebd06cc9"
+    },
+    "label" : "",
+    "name" : "Configuration Device",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "default"
+  },
+  "credentials" : {
+    "credentialsId" : "d9b6ff3756p8u8jyzcyh",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1727344458704,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1727344458703,
+      "longValue" : 1727344458703,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"busStops\":[{\"latitude\":-36.79159,\"longitude\":174.99938,\"bus-stop-name\":\"1\",\"distance-to-next-stop\":436},{\"latitude\":-36.78724,\"longitude\":175.00125,\"bus-stop-name\":\"2\",\"distance-to-next-stop\":3731},{\"latitude\":-36.78139,\"longitude\":175.007,\"bus-stop-name\":\"3\",\"distance-to-next-stop\":1348},{\"latitude\":-36.78338,\"longitude\":175.01086,\"bus-stop-name\":\"4\",\"distance-to-next-stop\":2115},{\"latitude\":-36.79883,\"longitude\":175.03447,\"bus-stop-name\":\"5\",\"distance-to-next-stop\":374},{\"latitude\":-36.79589,\"longitude\":175.04737,\"bus-stop-name\":\"6\",\"distance-to-next-stop\":559},{\"latitude\":-36.80141,\"longitude\":175.06579,\"bus-stop-name\":\"7\",\"distance-to-next-stop\":1688},{\"latitude\":-36.79887,\"longitude\":175.07527,\"bus-stop-name\":\"8\",\"distance-to-next-stop\":2262},{\"latitude\":-36.78842,\"longitude\":175.08309,\"bus-stop-name\":\"9\",\"distance-to-next-stop\":361},{\"latitude\":-36.8011,\"longitude\":175.06984,\"bus-stop-name\":\"10\",\"distance-to-next-stop\":3595},{\"latitude\":-36.80149,\"longitude\":175.06619,\"bus-stop-name\":\"11\",\"distance-to-next-stop\":2187},{\"latitude\":-36.81456,\"longitude\":175.08249,\"bus-stop-name\":\"12\",\"distance-to-next-stop\":2319},{\"latitude\":-36.79601,\"longitude\":175.04829,\"bus-stop-name\":\"13\",\"distance-to-next-stop\":1789},{\"latitude\":-36.79689,\"longitude\":175.03242,\"bus-stop-name\":\"14\",\"distance-to-next-stop\":2858},{\"latitude\":-36.78365,\"longitude\":175.01139,\"bus-stop-name\":\"15\",\"distance-to-next-stop\":2286},{\"latitude\":-36.78012,\"longitude\":174.99216,\"bus-stop-name\":\"S/E\",\"distance-to-next-stop\":1447}]}",
+      "key" : "busStop",
+      "lastUpdateTs" : 1727764055884,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

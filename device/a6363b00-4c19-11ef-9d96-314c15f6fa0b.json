@@ -46,7 +46,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1722307089011,
+      "lastUpdateTs" : 1762211960868,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -54,18 +54,42 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1722307089011,
-      "longValue" : 1722307089011,
+      "lastUpdateTs" : 1762211960868,
+      "longValue" : 1762211960866,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1722306462559,
-      "longValue" : 1722306462397,
+      "lastUpdateTs" : 1762211315970,
+      "longValue" : 1762211314134,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1762210713475,
+      "longValue" : 1762210713475,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1762211314160,
+      "longValue" : 1762211314160,
       "strValue" : null
     } ],
-    "SHARED_SCOPE" : [ ]
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"busConfig\":[{\"aid\":\"8d34bdc9a5c78c42\",\"bus\":\"Bus A\",\"accessToken\":\"3KMpqehqIfz7V4NT6xW7\"},{\"aid\":\"9f3bd60d7a805ea3\",\"bus\":\"Bus B\",\"accessToken\":\"wurH9PWz8Le2Lqcsu7tw\"},{\"aid\":\"02372ba208415152\",\"bus\":\"Bus C\",\"accessToken\":\"ASxTwuAPMUGGdvlwLPX2\"},{\"aid\":\"c517cb23b2ad8f97\",\"bus\":\"Bus D\",\"accessToken\":\"sm9TTAJ8vDn8x7d1NxrD\"},{\"aid\":\"dac716154e4ccd67\",\"bus\":\"Bus E\",\"accessToken\":\"HJjtFmNyGQKX2LzySGel\"}]}",
+      "key" : "config",
+      "lastUpdateTs" : 1759842179818,
+      "longValue" : null,
+      "strValue" : null
+    } ]
   }
 }

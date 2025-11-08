@@ -805,6 +805,123 @@
           "row" : 0,
           "col" : 0,
           "id" : "63205505-4dfc-7c93-66a5-bc957e7f57b6"
+        },
+        "1808568f-1677-74ec-bf49-97f4c8ec0310" : {
+          "typeFullFqn" : "tenant.gtfs_parser",
+          "type" : "static",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "static",
+              "name" : "function",
+              "dataKeys" : [ {
+                "name" : "f(x)",
+                "type" : "function",
+                "label" : "Random",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.15479322438769105,
+                "funcBody" : "var value = prevValue + Math.random() * 100 - 50;\nvar multiplier = Math.pow(10, 2 || 0);\nvar value = Math.round(value * multiplier) / multiplier;\nif (value < -1000) {\n\tvalue = -1000;\n} else if (value > 1000) {\n\tvalue = 1000;\n}\nreturn value;"
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : false,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "cardHtml" : "<div class='card'>HTML code here</div>",
+              "cardCss" : ".card {\n    font-weight: bold;\n    font-size: 32px;\n    color: #999;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}"
+            },
+            "title" : "HTML Card",
+            "dropShadow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "1808568f-1677-74ec-bf49-97f4c8ec0310"
+        },
+        "b5e8fca6-ece7-40b9-2e6a-9d20f0904b68" : {
+          "typeFullFqn" : "tenant.busroutedata_importer",
+          "type" : "static",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "static",
+              "name" : "function",
+              "dataKeys" : [ {
+                "name" : "f(x)",
+                "type" : "function",
+                "label" : "Random",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.15479322438769105,
+                "funcBody" : "var value = prevValue + Math.random() * 100 - 50;\nvar multiplier = Math.pow(10, 2 || 0);\nvar value = Math.round(value * multiplier) / multiplier;\nif (value < -1000) {\n\tvalue = -1000;\n} else if (value > 1000) {\n\tvalue = 1000;\n}\nreturn value;"
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : false,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "cardHtml" : "<div class='card'>HTML code here</div>",
+              "cardCss" : ".card {\n    font-weight: bold;\n    font-size: 32px;\n    color: #999;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}"
+            },
+            "title" : "HTML Card",
+            "dropShadow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "b5e8fca6-ece7-40b9-2e6a-9d20f0904b68"
+        },
+        "78238b6e-76e5-a99c-929a-380f9c4bdbd2" : {
+          "typeFullFqn" : "tenant.scheduledata_importer",
+          "type" : "static",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "static",
+              "name" : "function",
+              "dataKeys" : [ {
+                "name" : "f(x)",
+                "type" : "function",
+                "label" : "Random",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.15479322438769105,
+                "funcBody" : "var value = prevValue + Math.random() * 100 - 50;\nvar multiplier = Math.pow(10, 2 || 0);\nvar value = Math.round(value * multiplier) / multiplier;\nif (value < -1000) {\n\tvalue = -1000;\n} else if (value > 1000) {\n\tvalue = 1000;\n}\nreturn value;"
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : false,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "cardHtml" : "<div class='card'>HTML code here</div>",
+              "cardCss" : ".card {\n    font-weight: bold;\n    font-size: 32px;\n    color: #999;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}"
+            },
+            "title" : "HTML Card",
+            "dropShadow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "78238b6e-76e5-a99c-929a-380f9c4bdbd2"
         }
       },
       "states" : {
@@ -867,6 +984,24 @@
                   "sizeY" : 4,
                   "row" : 15,
                   "col" : 16
+                },
+                "1808568f-1677-74ec-bf49-97f4c8ec0310" : {
+                  "sizeX" : 8,
+                  "sizeY" : 13,
+                  "row" : 19,
+                  "col" : 0
+                },
+                "b5e8fca6-ece7-40b9-2e6a-9d20f0904b68" : {
+                  "sizeX" : 8,
+                  "sizeY" : 13,
+                  "row" : 19,
+                  "col" : 8
+                },
+                "78238b6e-76e5-a99c-929a-380f9c4bdbd2" : {
+                  "sizeX" : 8,
+                  "sizeY" : 13,
+                  "row" : 19,
+                  "col" : 16
                 }
               },
               "gridSettings" : {
@@ -916,7 +1051,7 @@
             "type" : "entityList",
             "resolveMultiple" : true,
             "entityType" : "DEVICE",
-            "entityList" : [ "d4467e10-4acf-11ef-9d96-314c15f6fa0b", "2e6ca5e0-4ad0-11ef-9d96-314c15f6fa0b", "9ee05df0-4f10-11ef-8c42-314c15f6fa0b" ]
+            "entityList" : [ "d4467e10-4acf-11ef-9d96-314c15f6fa0b", "2e6ca5e0-4ad0-11ef-9d96-314c15f6fa0b", "9ee05df0-4f10-11ef-8c42-314c15f6fa0b", "933b1af0-aa4e-11ef-a45c-314c15f6fa0b" ]
           }
         },
         "8b6f55a0-b35a-0db8-d20d-172599598f54" : {
@@ -970,6 +1105,18 @@
             "singleEntity" : {
               "entityType" : "DEVICE",
               "id" : "9ee05df0-4f10-11ef-8c42-314c15f6fa0b"
+            }
+          }
+        },
+        "19e2cf9b-44aa-d856-f9a8-c4d95707dd3e" : {
+          "id" : "19e2cf9b-44aa-d856-f9a8-c4d95707dd3e",
+          "alias" : "Bus D",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "933b1af0-aa4e-11ef-a45c-314c15f6fa0b"
             }
           }
         }
